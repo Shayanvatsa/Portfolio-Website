@@ -23,24 +23,24 @@ const NavBar = () => {
 
         {
           nav ?(
-            <div className='Fixed w-full h-screen bg-black/90 flex flex-col justify-center z-20'>
-              <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='fixed w-full h-screen bg-black/90 flex flex-col justify-center z-50'>
+              <a onClick={handleNav} href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <IoIosInformationCircleOutline size={20} />
                 <span className='pl-4'>About</span>
               </a>
-              <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <a onClick={handleNav} href="#skills" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <FaCode size={20} />
                 <span className='pl-4'>Skills</span>
               </a>
-              <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <a onClick={handleNav} href="#projects" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <GrProjects size={20} />
                 <span className='pl-4'>Projects</span>
               </a>
-              <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <a onClick={handleNav} href="#resume" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <GoPaperclip size={20} />
                 <span className='pl-4'>Resume</span>
               </a>
-              <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <a onClick={handleNav} href="#contact" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-red-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <IoIosContact  size={20} />
                 <span className='pl-4'>Contact</span>
               </a>
@@ -75,5 +75,7 @@ const NavBar = () => {
     </div>
   );
 };
+
+  
 
 export default NavBar;
