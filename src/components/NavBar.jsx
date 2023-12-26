@@ -54,19 +54,19 @@ const NavBar = () => {
 
         <div className='md:block hidden fixed top-[25%] z-10'>
           <div className='flex flex-col'>
-            <a href='#main' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a onClick={handleNav} href='#main' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <IoIosInformationCircleOutline size={25}/>
             </a>
-            <a href='#skills' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a onClick={handleNav} href='#skills' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <FaCode size={25}/>
             </a>
-            <a href='#projects' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a onClick={handleNav} href='#projects' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <GrProjects size={25}/>
             </a>
-            <a href='#resume' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a  href='#resume' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <GoPaperclip size={25}/>
             </a>
-            <a href='#contact' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a onClick={handleNav} href='#contact' className='rounded-full shadow-lg bg-red-500 shadow-emerald-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <IoIosContact size={25}/>
             </a>
           </div>
