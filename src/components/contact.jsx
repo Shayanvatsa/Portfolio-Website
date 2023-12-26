@@ -15,24 +15,24 @@ const ContactMe = () => {
         <div className='grid md:grid-cols-2 gap-4 w-full py-4'>
           <div className='flex flex-col'>
             <label htmlFor="name" className='uppercase text-sm py-2 font-bold'>Name</label>
-            <input className='border-2 rounded-lg p-3 flex border-red-300' type="text" name='name' />
+            <input className='border-2 rounded-lg p-3 flex border-red-300 text-black' type="text" name='name' />
           </div>
           <div className='flex flex-col'>
             <label htmlFor="phone" className='uppercase text-sm py-2 font-bold'>Contact Number</label>
-            <input className='border-2 rounded-lg p-3 flex border-red-300' type="text" name='phone' />
+            <input className='border-2 rounded-lg p-3 flex border-red-300 text-black' type="text" name='phone' />
           </div>
         </div>
         <div className='flex flex-col py-2'>
           <label htmlFor="email" className='uppercase text-sm py-2 font-bold'>Email</label>
-          <input className='border-2 rounded-lg p-3 flex border-red-300' type="email" name='email' />
+          <input className='border-2 rounded-lg p-3 flex border-red-300 text-black' type="email" name='email' />
         </div>
         <div className='flex flex-col py-2'>
           <label htmlFor="subject" className='uppercase text-sm py-2 font-bold'>Subject</label>
-          <input className='border-2 rounded-lg p-3 flex border-red-300' type="text" name='subject' />
+          <input className='border-2 rounded-lg p-3 flex border-red-300 text-black' type="text" name='subject' />
         </div>
         <div className='flex flex-col py-2'>
           <label htmlFor="message" className='uppercase text-sm py-2 font-bold'>Message</label>
-          <textarea className='border-2 rounded-lg p-3 flex border-red-300' rows="6" name='message'></textarea>
+          <textarea className='border-2 rounded-lg p-3 flex border-red-300 text-black' rows="6" name='message'></textarea>
         </div>
         <button className='bg-[#FF0000] font-bold text-white mt-4 w-full p-4 rounded-lg'>Send Message</button>
       </form>

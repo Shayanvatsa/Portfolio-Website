@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 const Resume = () => {
   const handleDownload = () => {
     // Replace 'path/to/YourResume.pdf' with the actual path to your PDF file
-    const pdfPath = 'src/components/Images/Resume.pdf';
+    const pdfPath =  'src/components/Images/Resume.pdf';
 
     console.log('Attempting to download:', pdfPath);
 
