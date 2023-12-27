@@ -1,15 +1,13 @@
 import React from 'react';
 import { saveAs } from 'file-saver';
+import ResumePDF from './Images/Resume.pdf';  // Import the PDF file
 
 const Resume = () => {
   const handleDownload = () => {
-    // Replace 'path/to/YourResume.pdf' with the actual path to your PDF file
-    const pdfPath =  'src/components/Images/Resume.pdf';
-
-    console.log('Attempting to download:', pdfPath);
+    console.log('Attempting to download:', ResumePDF);
 
     // Use file-saver to trigger the download
-    saveAs(pdfPath, 'ShayanResume.pdf');
+    saveAs(ResumePDF, 'ShayanResume.pdf');
 
     console.log('Download initiated.');
   };
