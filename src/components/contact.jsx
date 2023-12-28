@@ -4,13 +4,21 @@ const ContactMe = () => {
   return (
     <div id='contact' className='w-full h-screen flex flex-col items-center justify-center relative'>
       <div className='absolute w-full h-full top-0 left-0 bg-black bg-opacity-70 z-[-1]'></div>
-      <form action="https://getform.io/f/8f0dcda9-8871-419a-980f-5d7ca58ab6d3" method='POST' encType='multipart/form-data' className='w-[80%] max-w-md bg-black bg-opacity-50 text-white p-8 rounded-lg shadow-md'>
+      <form
+        action="https://getform.io/f/8f0dcda9-8871-419a-980f-5d7ca58ab6d3"
+        method='POST'
+        encType='multipart/form-data'
+        className='w-[80%] max-w-md bg-black bg-opacity-50 text-white p-8 rounded-lg shadow-md'
+        style={{
+          boxShadow: '0 0 10px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 0, 0, 0.5)',
+        }}
+      >
         <h1 className='text-4xl font-bold text-center mb-4'>Contact Me</h1>
         <img
-        className='w-full h-full object-cover absolute top-0 left-0 z-[-1]'
-        src="https://images.unsplash.com/photo-1598812866501-87ad598839e7?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="BG Image"
-      />
+          className='w-full h-full object-cover absolute top-0 left-0 z-[-1]'
+          src="https://images.unsplash.com/photo-1598812866501-87ad598839e7?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="BG Image"
+        />
 
         <div className='grid md:grid-cols-2 gap-4 w-full py-4'>
           <div className='flex flex-col'>
