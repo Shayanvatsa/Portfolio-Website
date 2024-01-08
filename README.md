@@ -2,7 +2,14 @@
 
 ![Portfolio-Website](https://raw.githubusercontent.com/Shayanvatsa/Portfolio-Website/main/Screenshot%20(23).png)
 
-Welcome to my digital resume â an interactive and visually appealing platform providing insights into my professional journey and expertise.
+Welcome to my digital resume an interactive and visually appealing platform providing insights into my professional journey and expertise.
+
+
+- [Homepage](#homepage)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Resume](#resume)
+- [Contact](#contact)
 
 ## Tech Stack
 
