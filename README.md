@@ -1,5 +1,7 @@
 # Portfolio Website 
 
+![Portfolio-Website](https://raw.githubusercontent.com/Shayanvatsa/Portfolio-Website/main/Screenshot%20(23).png)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
