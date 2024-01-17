@@ -1,20 +1,13 @@
 import React from 'react';
 import { saveAs } from 'file-saver';
-import ResumePDF from './Images/Resume.pdf';  // Import the PDF file
+const ResumePDF = require('./Images/Resume.pdf');  // Use require to get the file content
 
 const Resume = () => {
-  const handleDownload = async () => {
+  const handleDownload = () => {
     console.log('Attempting to download:', ResumePDF);
 
     // Use file-saver to trigger the download
-    const response = await fetch(ResumePDF);
-    const blob = await response.blob();
-
-    // Convert the blob to data URL
-    const dataUrl = URL.createObjectURL(blob);
-
-    // Save the file with the specified name
-    saveAs(dataUrl, 'Shayan-Resume.pdf');
+    saveAs(ResumePDF, 'Shayan-Resume.pdf');
 
     console.log('Download initiated.');
   };
