@@ -15,7 +15,9 @@ function App(){
       <Project />
       <Resume />
       <Contact />
-
+      <div className="bg-slate-800 text-center py-5 text-2xl font-semibold text-red-500">
+      © Shayan Vatsa - All rights reserved, 2024.
+      </div>
     </div>
   )
 }
