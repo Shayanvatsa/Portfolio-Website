@@ -4,18 +4,18 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projectsData = [
     {
-      name: 'WebSociety',
-      description: 'A web Based tool that performs Nmap, Steganography and Hashcat',
-      githubLink: 'https://github.com/Shayanvatsa/Websociety',
+      name: 'CryptoGuard',
+      description: 'A streamlit tool that performs encryption, decryption and hashing using various cryptographic algorithms.',
+      githubLink: 'https://github.com/Shayanvatsa/CryptoGuard.git',
     },
     {
-      name: 'Weather App',
-      description: 'This WebApp shows Weather of any location using data fetched from openAPI',
-      githubLink: 'https://github.com/Shayanvatsa/Weather-App',
+      name: 'Lung Cancer Detection',
+      description: 'This project aims to develop a CNN for classifying lung cancer cases using chest X-ray images.',
+      githubLink: 'https://github.com/Shayanvatsa/Lung-Cancer-Detection.git',
     },
     {
-      name: 'Other Projects',
-      description: 'All the other Projects I did.',
+      name: 'More Projects',
+      description: 'Check out the other projects here.',
       githubLink: 'https://github.com/Shayanvatsa',
     },
     // Add more projects as needed
