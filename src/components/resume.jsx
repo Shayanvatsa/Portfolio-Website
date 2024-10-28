@@ -22,6 +22,9 @@ const Resume = () => {
   return (
     <div id='resume' className='w-full h-screen relative'>
       <h1 className='text-4xl font-bold text-center text-[#5CDB95]'>Resume</h1>
+      <br></br>
+      <body className='text-2xl font-semibold text-white'> Hey there! I am a final-year B. Tech student in Computer Science and Engineering, specializing in cybersecurity. With a 
+      passion for both web development and cybersecurity, I continuously explore emerging technologies. Check out the resume below for more information about me.</body>
       <img
         className='w-full h-full object-cover absolute top-0 left-0 z-[-1]'
         src="https://images.unsplash.com/photo-1598812866501-87ad598839e7?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
